@@ -11,11 +11,9 @@ function getContent() {
 		include __DIR__.'/../pages/home.php';
 	}
 	elseif(isset($_GET['page']) && $_GET['page'] == "bio") {
-
         include __DIR__.'/../pages/bio.php';
     }
 	elseif(isset($_GET['page']) && $_GET['page'] == "contact") {
-
         include __DIR__.'/../pages/contact.php';
     }
 }
@@ -24,3 +22,6 @@ function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+function getUserData() {
+
+}

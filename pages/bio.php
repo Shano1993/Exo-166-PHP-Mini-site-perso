@@ -1,5 +1,5 @@
 <section>
-    <h1>BIO</h1>
+    <h1>Bio</h1>
 <?php
 
 ?>
