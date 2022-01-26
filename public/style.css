@@ -49,3 +49,27 @@ section > h1 {
 	text-decoration-line: underline;
 	font-size: 4rem;
 }
+
+form {
+	border: 0.1rem solid black;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 3rem;
+}
+
+form > div {
+	margin: 0.5rem;
+}
+
+input {
+	padding: 0.5rem;
+}
+
+input[type=submit] {
+	padding: 1rem 3rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
