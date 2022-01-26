@@ -25,4 +25,5 @@ validateRange(10, 300, 'message', '/public/index.php?page=contact&error=4');
 $jsonMessage = file_put_contents("../data/last_message.json", $_POST);
 json_encode($jsonMessage);
 
+
 header('Location: admin.php');
