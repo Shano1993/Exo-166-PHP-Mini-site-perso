@@ -54,7 +54,7 @@ form {
 	border: 0.1rem solid black;
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	width: 30%;
 	margin: 0 auto;
 	align-items: center;
 	padding: 3rem;
@@ -64,12 +64,42 @@ form > div {
 	margin: 0.5rem;
 }
 
-input {
+input, textarea {
 	padding: 0.5rem;
+	font-size: 1.5rem;
 }
 
 input[type=submit] {
 	padding: 1rem 3rem;
 	border-radius: 0.5rem;
 	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem;
+}
+
+section {
+	border: 0.1rem solid black;
+	height: 70rem;
+}
+
+.feedback-message {
+	padding: 1rem;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+}
+
+.feedback-error {
+	background: indianred;
+}
+
+.feedback-success {
+	background: mediumseagreen;
 }
