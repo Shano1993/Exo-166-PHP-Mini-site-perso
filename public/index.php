@@ -15,5 +15,3 @@ getPart('header');
 getContent();
 
 
-getUserData();
-

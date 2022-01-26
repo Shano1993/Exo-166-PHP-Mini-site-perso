@@ -23,5 +23,10 @@ function getPart($name) {
 }
 
 function getUserData() {
-
+    $datas = file_get_contents('../data/user.json');
+    $arrayDatas = json_decode($datas);
+    foreach ($arrayDatas as $keys => $arrayData) {
+        echo "<p>$keys : $arrayData</p>";
+    }
 }
+

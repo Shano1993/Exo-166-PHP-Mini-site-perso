@@ -1,19 +1,19 @@
 {
-    "name": "Doe",
-    "first_name": "Jane",
-    "occupation": "Web developer",
-    "experiences": [
+    "Name": "Doe",
+    "First Name": "Jane",
+    "Occupation": "Web developer",
+    "Experiences": [
         {
-            "year": 2020,
-            "company": "Samll Startup"
+            "Year": 2020,
+            "Company": "Samll Startup"
         },
         {
-            "year": 2019,
-            "company": "World Corp"
+            "Year": 2019,
+            "Company": "World Corp"
         },
         {
-            "year": 2018,
-            "company": "Formation UpTo Fourmies"
+            "Year": 2018,
+            "Company": "Formation UpTo Fourmies"
         }
     ]
 }
