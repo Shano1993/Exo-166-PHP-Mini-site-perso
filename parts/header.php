@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -9,5 +10,5 @@
     <body>
         <header>
             <h1>Jane Doe</h1>
-            <?php getPart('menu'); ?>
+            <?php require __DIR__ . '/menu.php'?>
         </header>
